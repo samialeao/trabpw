@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com o GitHub</title>
+    <link rel="stylesheet" href="Formulário.css">
+</head>
+<body>
+    <div>
+    <h1>Formulário para  login</h1>
+    <h2>Crie sua conta!</h2>
+    </div>
+
+    <form action="">
+        <fieldset>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" required> <br> <br>
+            </div><div>
+                <label for="usuário">Nome de usuário:</label>
+                <input type="text" name="usuário" id="usuário">
+        
+                <label for="sexo">Seu sexo:</label>
+                <input type="radio" name="sexo" value="f">Feminino
+                <input type="radio" name="sexo" value="m">Masculino
+                <input type="radio" name="sexo" value="n">Prefiro não dizer <br><br>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            
+                <label for="continente">Seu continente:</label>
+                <select name="continente" id="continente">
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="am">América</option>
+                    <option value="eu">Europa</option>
+                    <option value="af">África</option>
+                    <option value="oc">Oceania</option>
+                    <option value="as">àsia</option>
+                </select>
+            </div>
+        </fieldset>
+        <h2>Para te conhecer:</h2>
+        <fieldset>
+            <div>
+               
+
+                <label for="bio">Biografia:</label> <br>
+                <textarea name="bio" id="bio" cols="30" rows="5"></textarea> <br>
+
+                <label for="famil" >Quem mora com você (Pode selecionar mais de 1)?</label>
+                <input type="checkbox" name="famil" id="cachorro">Cachorro
+                <input type="checkbox" name="famil" id="gato" >Gato
+                <input type="checkbox" name="famil" id="Pássaro" >Pássaro
+
+                <label for="animal" >Você tem animais (Pode selecionar mais de 1)?</label>
+                <input type="checkbox" name="animal" id="cachorro">Cachorro
+                <input type="checkbox" name="animal" id="gato" >Gato
+                <input type="checkbox" name="animal" id="Pássaro" >Pássaro
+                <input type="checkbox" name="animal" id="pexe" >Peixe
+                <input type="checkbox" name="animal" id="outro" >Outro
+                <input type="checkbox" name="animal" id="npossuo" >Não possuo
+            </div>
+        </fieldset> <br>
+        <fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar cadastro">
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
