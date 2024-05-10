@@ -22,19 +22,19 @@
                 <input type="text" name="sobrenome" id="sobrenome" required> <br> <br>
             </div><div>
                 <label for="usuário">Nome de usuário:</label>
-                <input type="text" name="usuário" id="usuário"> <br> <br>
+                <input type="text" name="usuário" id="usuário" required> <br> <br>
         
                 <label for="sexo">Seu sexo:</label>
-                <input type="radio" name="sexo" value="f">Feminino
-                <input type="radio" name="sexo" value="m">Masculino
-                <input type="radio" name="sexo" value="n">Prefiro não dizer <br><br>
+                <input type="radio" name="sexo" value="f" required>Feminino
+                <input type="radio" name="sexo" value="m" required>Masculino
+                <input type="radio" name="sexo" value="n" required>Prefiro não dizer <br><br>
             </div>
             <div>
                 <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email"> <br> <br>
+                <input type="email" name="email" id="email" required> <br> <br>
             
                 <label for="continente">Seu continente:</label>
-                <select name="continente" id="continente"> 
+                <select name="continente" id="continente" required> 
 
                     <option value="" selected disabled>Selecione</option>
                     <option value="am">América</option>
@@ -50,7 +50,7 @@
             <div>
                <div id="bioarea">
                 <label for="bio">Biografia:</label> <br>
-                <textarea name="bio" id="bio" cols="30" rows="5"></textarea> <br>
+                <textarea name="bio" id="bio" cols="30" rows="5" required></textarea> <br>
                 </div>
                 <label for="famil" >Quem mora com você? (Pode selecionar mais de 1)</label>
                 <input type="checkbox" name="famil" id="pai">Pai(s)

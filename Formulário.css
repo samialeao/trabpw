@@ -17,9 +17,9 @@ h1{
 main{
     width: 60%;
     display: flex;
-    justify-content: center;
     background-color: white;
     border-radius: 5%;
+
 
 }
 form{
@@ -28,6 +28,8 @@ form{
 input, select, textarea, button{
     border-radius: 15px;
     border: solid peru;
+    background-color: white;
+
 }
 fieldset{
     border-radius: 15px;
